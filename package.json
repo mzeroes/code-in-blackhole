@@ -1,0 +1,21 @@
+{
+    "name": "code-in-blackhole",
+    "displayName": "codeinblackhole",
+    "description": "A dark theme for vscode.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "blackhole",
+                "uiTheme": "vs-dark",
+                "path": "./themes/blackhole-color-theme.json"
+            }
+        ]
+    }
+}
